@@ -1,0 +1,192 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+}
+
+.nav-container {
+    position: sticky;
+    z-index: 3;
+    top: 0;
+}
+
+.navbar-logo {
+    justify-self: start;
+    margin-left: 20px;
+    color: #fff;
+    margin-top: 4vh;
+    cursor: pointer;
+}
+
+.ver-carrito {
+    font-size: 25px;
+    margin-right: 20px;
+    margin-top: 3.5vh;
+    cursor: pointer;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 12vh;
+    background-color: #1c1c1d;
+}
+
+
+#banner {
+    padding-top: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.capa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1c1c1d;
+    opacity: 0.5;
+    mix-blend-mode: overlay;
+}
+
+#banner h1 {
+    margin: 0;
+    color: white;
+    font-size: 60px;
+}
+
+#banner p {
+    font-size: 30px;
+    color: white;
+    opacity: 0.5;
+}
+
+.bi-twitter-x {
+    color: aliceblue;
+}
+
+.bi-facebook {
+    color: aliceblue;
+}
+
+.bi-instagram {
+    color: aliceblue;
+}
+
+.bi-linkedin {
+    color: aliceblue;
+}
+
+.galeria {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.galeria img {
+    width: 100%;
+    height: auto;
+}
+
+.galeria h2 {
+    text-align: center;
+}
+
+#contenedorCompra {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 999;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.vehiculosCompra {
+    margin-top: 20px;
+}
+
+.total {
+    margin-top: 20px;
+}
+
+#finalizarCompra {
+    margin-top: 20px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.producto {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+}
+
+.producto h2 {
+    text-align: center;
+}
+
+.producto button {
+    display: block;
+    margin: 0 auto;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.producto {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+}
+
+.producto h2 {
+    text-align: center;
+}
+
+.producto button {
+    display: block;
+    margin: 0 auto;
+}
+
+.x {
+    cursor: pointer;
+}
